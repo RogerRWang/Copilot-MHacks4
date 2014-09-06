@@ -35,7 +35,6 @@ public class DrowsyDetector extends Activity {
     private TextView mSteeringWheelAngleView;
     private TextView mVehicleBrakeStatusView;
     private TextView mAcceleratorPedalPositionView;
-   // private TextView mLongAccelView;
 
    BrakePedalStatus.Listener mBrakePedalStatus =
             new BrakePedalStatus.Listener() {
